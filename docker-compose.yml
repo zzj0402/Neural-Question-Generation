@@ -1,0 +1,6 @@
+version: "3.7"
+services:
+  qg:
+    build: .
+    ports:
+      - "5004:5004"

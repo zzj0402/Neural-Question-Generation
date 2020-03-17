@@ -14,4 +14,4 @@ WORKDIR /root/question-generation/
 
 RUN pip install -r requirements.txt
 RUN ./setup.sh
-CMD ./demo.sh
+# CMD ./demo.sh
